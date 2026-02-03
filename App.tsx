@@ -193,7 +193,7 @@ function App() {
         <MobileNavBtn icon={Menu} label="Menu" active={activeTab === 'menu'} onClick={() => setActiveTab('menu')} accent={accent} />
       </nav>
 
-      <main className="p-4 md:p-10 max-w-4xl mx-auto space-y-6">
+      <main className="px-4 pt-2 pb-20 md:p-10 max-w-4xl mx-auto space-y-6">
         <div className="md:hidden flex justify-between items-center mb-4">
            <div>
              <h1 className="text-xl font-black tracking-tight text-slate-800 dark:text-white">TELE SENSEI</h1>
